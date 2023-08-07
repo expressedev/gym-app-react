@@ -1,7 +1,21 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { Box } from "@mui/material";
+import { exerciseOptions, fetchData } from "../utils/fetchData";
+import Detail from "../components/Detail";
+import ExerciseVideos from "../components/ExerciseVideos";
+import SimilarExercises from "../components/SimilarExercises";
 
 function ExerciseDetail() {
-  return <div>ExerciseDetail</div>;
+  return (
+    <Box>
+      <h1>Hello</h1>
+      <Detail />
+      <ExerciseVideos />
+      <SimilarExercises />
+    </Box>
+  );
 }
 
 export default ExerciseDetail;
