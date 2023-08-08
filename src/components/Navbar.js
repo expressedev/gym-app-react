@@ -20,7 +20,7 @@ function Navbar() {
         <img
           src={Logo}
           alt="logo"
-          style={{ width: "48px", height: "48px", margin: "o 20px" }}
+          style={{ width: "48px", height: "48px", margin: "0px 20px" }}
         />
       </Link>
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
@@ -35,10 +35,10 @@ function Navbar() {
           Home
         </Link>
         <a
-          href="#excercises"
+          href="#exercises"
           style={{ textDecoration: "none", color: "#3A1212" }}
         >
-          Excercises
+          Exercises
         </a>
       </Stack>
     </Stack>
